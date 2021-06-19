@@ -1,5 +1,4 @@
 import Switch from 'react-switch'
-import Skeleton from 'react-loading-skeleton'
 
 type SwitchProps = {
     onChange: any
@@ -11,6 +10,8 @@ type SwitchProps = {
     handleDiameter: any
     offColor?: any
     onColor?: any
+    onHandleColor?: any
+    offHandleColor?: any
 }
 
 const SwitchTop = ({ ...props }: SwitchProps) => {

@@ -41,8 +41,10 @@ export function Header({ darkMode, setTheme }: IProps) {
                     height={10}
                     width={40}
                     handleDiameter={20}
-                    offColor={shade(0.15, colors.secundary)}
                     onColor={colors.secundary}
+                    offColor={shade(0.15, colors.primary)}
+                    onHandleColor={colors.handleColor}
+                    offHandleColor={colors.handleColor}
                 />
             </header>
         )

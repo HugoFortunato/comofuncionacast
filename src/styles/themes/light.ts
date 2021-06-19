@@ -1,7 +1,9 @@
+/* eslint-disable import/no-anonymous-default-export */
 export default {
   colors: {
-    primary: '#4F46E5',
-    secundary: '#111827',
+    primary: '#e6e8eb',
+    secundary: '#2EA44F',
+    handleColor: "#141414",
 
     background: '#f5f5f5',
     text: '#333'
